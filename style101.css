@@ -1,0 +1,282 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+.img1{
+    display: flex;
+    background: url("img7.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+.cards {
+    background-color: rgb(189, 183, 107);
+}
+.title h1{
+    font-size: 80px;
+    font-family:'Kaushan Script', cursive; 
+    padding-left: 20px;
+    margin-top: 9%;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    color: rgb(21, 22, 22);
+    font-size: 3.2em ;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.card{
+    background-color: rgb(21, 77, 85);
+    width: 30em;
+    box-shadow:0 5px 25px rgb(87, 81, 81) ;
+    border-radius: 10px;
+    padding: 33px;
+    margin: 80px;
+    transition: 0.7s ease;
+    justify-content: center;
+   
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card6{
+    background-color: rgb(247, 114, 6);
+        width: 12em;
+        box-shadow:0 5px 25px rgb(87, 81, 81) ;
+        border-radius: 10px;
+        padding: 22px;
+        margin: 30px;
+        transition: 0.7s ease;
+        min-height: 11em;
+        overflow: hidden;
+        height: 12em;
+       
+   
+}
+.card6:hover{
+transform: scale(1.1);
+}
+
+
+ .card h2 {
+    color: rgb(247, 114, 6);
+    font-size: 2 em;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+  text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.card h3{
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+   font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 17%;
+      
+}
+.card6 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  
+}
+.card2{
+    background-color: rgb(247, 114, 6);
+    width: 12em;
+    box-shadow:0 5px 25px rgb(87, 81, 81) ;
+    border-radius: 10px;
+    padding: 22px;
+    margin: 30px;
+    transition: 0.7s ease;
+    min-height: 11em;
+    overflow: hidden;
+    height: 12em;
+   
+}
+.card2 img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+  
+}
+.card6 h2 {
+    color: rgb(21, 77, 85);
+    font-size: 1 em;
+    font-weight:300;
+    margin: 6px;
+    text-align: center;
+ font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card2 h2 {
+    color: rgb(21, 77, 85);
+    font-size: 1.1 em;
+    font-weight: 300;
+    margin: 6px;
+    text-align: center;
+   text-transform: uppercase;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card2:hover:hover{
+    transform: scale(1.1);
+    }
+    .card6:hover:hover:hover:hover{
+        transform: scale(1.1);
+        }
+    .projects {
+        background-color: #131414;
+    }
+    
+    .projects .content{
+        margin-top: 10px;
+    }
+    .title3{
+        text-align:center ;
+        color: rgb(247, 114, 6);
+        font-size: 50px;
+        font-weight: 900;
+        margin: 10px;
+     font-family: 'Poppins', sans-serif;
+
+    }
+    
+    .project-card {
+        background-color: #fff;
+        border: 1px solid rgb(17, 17, 17);
+        min-height: 11em;
+        width: 19em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 12px;
+        transition: 0.7s ease;
+    }
+    
+    .project-card:hover {
+       transform: scale(1.1);
+    }
+    
+    .project-card:hover .project-image {
+        opacity: 0.9;
+     }
+    
+    .project-image img{
+        width: 100%
+    }
+    
+    .project-info {
+        padding: 1em;
+    }
+    
+    .project-category {
+        font-size: 0.8em;
+        color: #000;
+    }
+    
+    .project-title {
+        display: flex;
+        justify-content: space-between;
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 800;
+        margin-top: 6px;
+        color:  rgb(247, 114, 6);
+    }
+    .cards4 {
+        background-color: rgb(189, 183, 107);
+    }
+    .title4{
+        text-align:center ;
+        color:  rgb(21, 77, 85);
+        font-size: 50px;
+        font-weight: 900;
+        margin: 10px;
+     font-family: 'Poppins', sans-serif;
+
+    }
+    .card5{
+        background-color: rgb(21, 77, 85);
+        width: 12em;
+        box-shadow:0 5px 25px rgb(87, 81, 81) ;
+        border-radius: 10px;
+        padding: 22px;
+        margin: 30px;
+        transition: 0.7s ease;
+        min-height: 11em;
+        overflow: hidden;
+        height: 12em;
+       
+    }
+    .card5 h2 {
+        color: rgb(251, 253, 253);
+        font-size: 1.1 em;
+        font-weight: 300;
+        margin: 6px;
+        text-align: center;
+      text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card5 h3{
+        color: aliceblue;
+        font-size: 1.1em;
+        font-weight: 300;
+        margin: 6px;
+        text-align: center;
+       font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .card5:hover:hover{
+        transform: scale(1.1);
+        }
+        .card5 img{
+    
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 100px;
+          
+        }
+        .card2 h3{
+            color: aliceblue;
+            font-size: 1.1em;
+            font-weight: 300;
+            margin: 6px;
+            text-align: center;
+           font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        @media (max-width: 1104px){
+            .title h1{
+                font-size: 100px;
+            }
+        }
+   
+  
+    
+
+
+
